@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Collections;
-
-namespace GameOfLife
+﻿
+namespace GameOfLife.Cl
 {
     public class GOL
     {
@@ -11,10 +7,10 @@ namespace GameOfLife
         {
             Width = width;
             Height = height;
-            mField = new List<bool>( new bool[Width * Height]);
+            mField = new List<bool>(new bool[Width * Height]);
         }
 
-        public void SetCell(int x,int y, bool state)
+        public void SetCell(int x, int y, bool state)
         {
             if (InBounds(x, y))
             {
@@ -49,7 +45,7 @@ namespace GameOfLife
 
         public void Update()
         {
-            
+
         }
 
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GameOfLife.Cl;
+using System;
 using Xunit;
 
 namespace UnitTests
